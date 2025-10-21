@@ -1,0 +1,24 @@
+#flipbook {
+  width: 800px;
+  height: 400px;
+
+  margin: 100px 0px;
+  overflow: visible;
+  position: relative;
+}
+
+.page {
+  background: white;
+  border: 1px solid #ccc;
+  text-align: center;
+  font-size: 24px;
+  line-height: 400px;
+  user-select: none;
+}
+
+
+.page .blank {
+  background: #f0f0f0; /* cor neutra ou decorativa */
+  color: transparent;  /* oculta texto */
+  pointer-events: none; /* impede interação */
+}
