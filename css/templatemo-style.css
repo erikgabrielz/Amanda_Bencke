@@ -402,9 +402,20 @@ https://templatemo.com/tm-516-known
       FEATURE              
   -----------------------------------------*/
 
+  #feature{
+    background-color: transparent;
+  }
+
+  .parallax{
+    background-image: url("/images/Amanda_Bencke_imagem/parallax.png");
+    background-attachment: fixed;
+  }
+
   .feature-thumb {
     border: 1px solid #f0f0f0;
     padding: 5em 3em;
+    margin-top: 100px;
+    margin-bottom: 80px;
   }
 
   .feature-thumb span {
@@ -489,7 +500,16 @@ https://templatemo.com/tm-516-known
 
   .team-info h3 {
     margin: 0;
+    text-align: center;
   }
+
+  .team-info span {
+    display: block;
+    margin-top: 15px;
+    text-align: justify;
+    hyphens: auto;
+  }
+
 
 
   /*---------------------------------------
