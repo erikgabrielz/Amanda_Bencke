@@ -501,6 +501,7 @@ https://templatemo.com/tm-516-known
   .team-info h3 {
     margin: 0;
     text-align: center;
+    font-size: 18px;
   }
 
   .team-info span {
@@ -753,6 +754,7 @@ https://templatemo.com/tm-516-known
     color: #ffffff;
   }
   
+  
 
 
 
@@ -915,7 +917,9 @@ https://templatemo.com/tm-516-known
 
     .contact-image {
       margin-top: 50px;
+      
     }
+
   }
 
 
