@@ -279,12 +279,11 @@ https://templatemo.com/tm-516-known
     margin-left: 8em;
   }
 
-  .custom-navbar .navbar-nav.navbar-right li a {
-    padding-right: 12px;
+  .custom-navbar .navbar-nav.navbar-nav-first li.contact {
     padding-left: 12px;
   }
 
-  .custom-navbar .navbar-nav.navbar-right li a .fa {
+  .custom-navbar .navbar-nav.navbar-nav-first li a .fa {
     background: #29ca8e;
     border-radius: 100%;
     color: #ffffff;
@@ -382,17 +381,21 @@ https://templatemo.com/tm-516-known
   .caption h3 a:hover { color: #FF3; }
 
   .home-slider .item-first {
-    background-image: url(../images/slider-image1.png) ;
+    background-image: url(../images/Amanda_Bencke_imagem/capa-livro.png) ;
 	 background-position: right;
   }
 
   .home-slider .item-second {
-    background-image: url(../images/slider-image2.jpg);
+    background-image: url(../images/slider-image1.png);
     background-position: center;
     
   }
 
   .home-slider .item-third {
+    background-image: url(../images/slider-image2.jpg)
+   }
+
+   .home-slider .item-fourth {
     background-image: url(../images/slider-image3.jpg)
    }
 
