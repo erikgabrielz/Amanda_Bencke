@@ -1,11 +1,13 @@
 #flipbook {
   width: 100%;
-  height: 400px;
+  height: 760px;
 
   margin: 100px 0px;
   overflow: visible;
   position: relative;
 }
+
+
 
 .page {
   background: white;
@@ -16,6 +18,12 @@
   user-select: none;
 }
 
+.capa{
+  background-image: url("/images/Amanda_Bencke_imagem/capa-livro.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
 .page .blank {
   background: #f0f0f0; /* cor neutra ou decorativa */
