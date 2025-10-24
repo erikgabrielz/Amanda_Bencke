@@ -272,8 +272,13 @@ https://templatemo.com/tm-516-known
     color: #454545;
     font-size: 18px;
     font-weight: bold;
-    line-height: 40px;
   }
+
+   .custom-navbar .navbar-brand img {
+    width: 130px;
+    height: 50px;
+  }
+
 
   .custom-navbar .navbar-nav.navbar-nav-first {
     margin-left: 8em;
@@ -381,22 +386,18 @@ https://templatemo.com/tm-516-known
   .caption h3 a:hover { color: #FF3; }
 
   .home-slider .item-first {
-    background-image: url(../images/Amanda_Bencke_imagem/capa-livro.png) ;
-	 background-position: right;
+    background-image: url('../images/slider-image1.png');
+	 background-position: top right;
   }
 
   .home-slider .item-second {
-    background-image: url(../images/slider-image1.png);
+    background-image: url('../images/slider-image2.jpg');
     background-position: center;
     
   }
 
   .home-slider .item-third {
-    background-image: url(../images/slider-image2.jpg)
-   }
-
-   .home-slider .item-fourth {
-    background-image: url(../images/slider-image3.jpg)
+    background-image: url('../images/slider-image3.jpg');
    }
 
 
@@ -410,7 +411,7 @@ https://templatemo.com/tm-516-known
   }
 
   .parallax{
-    background-image: url("/images/Amanda_Bencke_imagem/parallax.png");
+    background-image: url("../images/Amanda_Bencke_imagem/parallax.png");
     background-attachment: fixed;
   }
 
@@ -780,7 +781,11 @@ https://templatemo.com/tm-516-known
 
   footer a,
   footer p {
-    color: #909090;
+    color: #fff;
+  }
+
+  footer a:hover {
+    color: #ACECF7;
   }
 
   footer strong {
@@ -872,7 +877,7 @@ https://templatemo.com/tm-516-known
 
   .social-icon li a {
     border-radius: 100px;
-    color: #29ca8e;
+    color: #ACECF7;
     font-size: 15px;
     width: 35px;
     height: 35px;
@@ -885,7 +890,7 @@ https://templatemo.com/tm-516-known
   }
 
   .social-icon li a:hover {
-    background: #29ca8e;
+    background: #ACECF7;
     color: #ffffff;
   }
 
