@@ -400,6 +400,10 @@ https://templatemo.com/tm-516-known
     background-image: url('../images/slider-image3.jpg');
    }
 
+   .home-slider .item-fourth {
+    background-image: url("../images/slider-image4.jpg");
+   }
+
 
 
   /*---------------------------------------
