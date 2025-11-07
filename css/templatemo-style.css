@@ -413,6 +413,7 @@ https://templatemo.com/tm-516-known
   #feature{
     background-color: transparent;
     margin-top: -100px;
+    margin-bottom: -100px;
   }
 
   .parallax{
@@ -766,6 +767,10 @@ https://templatemo.com/tm-516-known
     border-color: #ffffff;
     color: #ffffff;
   }
+
+  #contact-form textarea {
+    resize: none;
+  }
   
   
 
@@ -934,7 +939,9 @@ https://templatemo.com/tm-516-known
 
     .contact-image {
       margin-top: 50px;
-      
+      img{
+        border-radius: 10px;
+      }
     }
 
   }
@@ -1015,6 +1022,9 @@ https://templatemo.com/tm-516-known
 
     .contact-image {
       margin-top: 0;
+      img{
+        border-radius: 10px;
+      }
     }
   }
 
